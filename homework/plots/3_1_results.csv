@@ -1,0 +1,19 @@
+эксперимент,оптимизатор,lr,batch,val MSE,эпох до 0.35,"время, с"
+learning_rate,sgd,0.0001,32,1.1064,не достиг,2.02
+learning_rate,sgd,0.001,32,0.5248,не достиг,0.93
+learning_rate,sgd,0.01,32,0.3365,32,1.09
+learning_rate,sgd,0.1,32,0.3394,3,0.94
+learning_rate,sgd,1.0,32,разошлось,не достиг,1.05
+batch_size,sgd,0.01,8,0.3363,10,3.81
+batch_size,sgd,0.01,32,0.3365,32,1.0
+batch_size,sgd,0.01,128,0.3566,не достиг,0.5
+batch_size,sgd,0.01,802,0.8094,не достиг,0.51
+optimizers,sgd,0.001,32,0.5248,не достиг,0.96
+optimizers,adam,0.001,32,0.3804,не достиг,1.63
+optimizers,rmsprop,0.001,32,0.3453,96,1.24
+optimizers,sgd,0.01,32,0.3365,32,1.27
+optimizers,adam,0.01,32,0.3408,14,1.14
+optimizers,rmsprop,0.01,32,0.3362,11,1.29
+optimizers,sgd,0.1,32,0.3394,3,0.92
+optimizers,adam,0.1,32,0.3569,2,1.28
+optimizers,rmsprop,0.1,32,0.3557,11,1.25
